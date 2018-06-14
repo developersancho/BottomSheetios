@@ -1,0 +1,6 @@
+framework module Pods_BottomSheetios {
+  umbrella header "Pods-BottomSheetios-umbrella.h"
+
+  export *
+  module * { export * }
+}

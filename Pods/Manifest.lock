@@ -1,0 +1,16 @@
+PODS:
+  - AppBottomActionSheet (1.1)
+
+DEPENDENCIES:
+  - AppBottomActionSheet
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AppBottomActionSheet
+
+SPEC CHECKSUMS:
+  AppBottomActionSheet: 2fe6ee60ee95e7248791e15249e7e022df239c7e
+
+PODFILE CHECKSUM: e06ac3aadd35a507d62426c3e90cf6347141b03b
+
+COCOAPODS: 1.5.0

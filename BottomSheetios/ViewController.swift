@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import AppBottomActionSheet
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, HalfSheetPresentingProtocol {
+    var transitionManager: HalfSheetPresentationManager!
+    
+    @IBOutlet weak var btnBottomSheet: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +25,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func showBottomSheet(_ sender: Any) {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
+        presentUsingHalfSheet(vc)
+    }
 }
 

@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73554F2E65E19DA09D0298AE /* Pods_BottomSheetios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E8B6178A46AE26284DFE3D /* Pods_BottomSheetios.framework */; };
 		E2C9D6B320D128E900EB0E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9D6B220D128E900EB0E53 /* AppDelegate.swift */; };
 		E2C9D6B520D128E900EB0E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9D6B420D128E900EB0E53 /* ViewController.swift */; };
 		E2C9D6B820D128E900EB0E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C9D6B620D128E900EB0E53 /* Main.storyboard */; };
 		E2C9D6BA20D128EB00EB0E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C9D6B920D128EB00EB0E53 /* Assets.xcassets */; };
 		E2C9D6BD20D128EB00EB0E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C9D6BB20D128EB00EB0E53 /* LaunchScreen.storyboard */; };
+		E2C9D6C520D12A4300EB0E53 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9D6C420D12A4300EB0E53 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B0B3FEE782AC1C777AD9B7E /* Pods-BottomSheetios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottomSheetios/Pods-BottomSheetios.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E8B6178A46AE26284DFE3D /* Pods_BottomSheetios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottomSheetios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C9D6AF20D128E900EB0E53 /* BottomSheetios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSheetios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C9D6B220D128E900EB0E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C9D6B420D128E900EB0E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		E2C9D6B920D128EB00EB0E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C9D6BC20D128EB00EB0E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2C9D6BE20D128EB00EB0E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C9D6C420D12A4300EB0E53 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EAA866EF61B22851D6B094C6 /* Pods-BottomSheetios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetios.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomSheetios/Pods-BottomSheetios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73554F2E65E19DA09D0298AE /* Pods_BottomSheetios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6A3EDBE2DBAB12281B07D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B0B3FEE782AC1C777AD9B7E /* Pods-BottomSheetios.debug.xcconfig */,
+				EAA866EF61B22851D6B094C6 /* Pods-BottomSheetios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2C9D6A620D128E900EB0E53 = {
 			isa = PBXGroup;
 			children = (
 				E2C9D6B120D128E900EB0E53 /* BottomSheetios */,
 				E2C9D6B020D128E900EB0E53 /* Products */,
+				1E6A3EDBE2DBAB12281B07D8 /* Pods */,
+				F650446CB0ED6FBCF9E957C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +74,21 @@
 			children = (
 				E2C9D6B220D128E900EB0E53 /* AppDelegate.swift */,
 				E2C9D6B420D128E900EB0E53 /* ViewController.swift */,
+				E2C9D6C420D12A4300EB0E53 /* DetailViewController.swift */,
 				E2C9D6B620D128E900EB0E53 /* Main.storyboard */,
 				E2C9D6B920D128EB00EB0E53 /* Assets.xcassets */,
 				E2C9D6BB20D128EB00EB0E53 /* LaunchScreen.storyboard */,
 				E2C9D6BE20D128EB00EB0E53 /* Info.plist */,
 			);
 			path = BottomSheetios;
+			sourceTree = "<group>";
+		};
+		F650446CB0ED6FBCF9E957C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E8B6178A46AE26284DFE3D /* Pods_BottomSheetios.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2C9D6C120D128EB00EB0E53 /* Build configuration list for PBXNativeTarget "BottomSheetios" */;
 			buildPhases = (
+				3F6EC96692552BB887C2E637 /* [CP] Check Pods Manifest.lock */,
 				E2C9D6AB20D128E900EB0E53 /* Sources */,
 				E2C9D6AC20D128E900EB0E53 /* Frameworks */,
 				E2C9D6AD20D128E900EB0E53 /* Resources */,
+				E88DF91277DF91DDEE7D2117 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +159,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F6EC96692552BB887C2E637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BottomSheetios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88DF91277DF91DDEE7D2117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BottomSheetios/Pods-BottomSheetios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppBottomActionSheet/AppBottomActionSheet.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppBottomActionSheet.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottomSheetios/Pods-BottomSheetios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2C9D6AB20D128E900EB0E53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C9D6C520D12A4300EB0E53 /* DetailViewController.swift in Sources */,
 				E2C9D6B520D128E900EB0E53 /* ViewController.swift in Sources */,
 				E2C9D6B320D128E900EB0E53 /* AppDelegate.swift in Sources */,
 			);
@@ -278,6 +347,7 @@
 		};
 		E2C9D6C220D128EB00EB0E53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0B3FEE782AC1C777AD9B7E /* Pods-BottomSheetios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +366,7 @@
 		};
 		E2C9D6C320D128EB00EB0E53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA866EF61B22851D6B094C6 /* Pods-BottomSheetios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
